@@ -36,7 +36,7 @@
 }
 
 .btn-block:hover {
-    background-color: #0056b3;
+    background-color: #00c8ff;
 }
 
 .loading-container {
@@ -52,7 +52,7 @@
 }
 
 @keyframes loading {
-    0% { color: #007bff; }
+    0% { color: #054890; }
     50% { color: #28a745; }
     100% { color: #007bff; }
 }
