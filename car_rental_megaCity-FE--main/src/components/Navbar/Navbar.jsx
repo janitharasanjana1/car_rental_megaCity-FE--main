@@ -1,25 +1,5 @@
 
-//         </button>
-//         <div className="collapse navbar-collapse" id="navbarNav">
-//           <ul className="navbar-nav ms-auto">
-//           <li className="nav-item">
-//             <Link className="nav-link" to="/cars">Cars</Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link className="nav-link" to="/login">Login</Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link className="nav-link" to="/register">Register</Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link className="nav-link" to="/login">Logout</Link>
-//             </li>
-//           </ul>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// }
+
 
 // export default Navbar;
 
