@@ -269,26 +269,7 @@ const AdminDashboard = () => {
     };
 
 
-    // const handleUpdateStatus = async (id, newStatus) => {
-    //     try {
-    //         const response = await axios.put(`http://localhost:8080/MegaCity_war_exploded/booking?id=${id}`, {
-    //             action:"updateStatus",
-    //             status: newStatus
-                
-    //         });
     
-    //         if (response.data === "Booking Updated Successfully") {
-    //             alert(`Booking ${newStatus} successfully!`);
-    
-    //             // Update the state immediately
-    //             setBookings((prevBookings) => 
-    //                 prevBookings.map((booking) => 
-    //                     booking.id === id ? { ...booking, status: newStatus } : booking
-    //                 )
-    //             );
-    //         } else {
-    //             alert("Failed to update booking!");
-    //         }
     //     } catch (error) {
     //         console.error(`Error updating booking to ${newStatus}:`, error);
     //         alert(`Error updating booking to ${newStatus}. Check console for details.`);
