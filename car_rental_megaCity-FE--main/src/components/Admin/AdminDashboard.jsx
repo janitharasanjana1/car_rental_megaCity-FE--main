@@ -270,12 +270,7 @@ const AdminDashboard = () => {
 
 
     
-    //     } catch (error) {
-    //         console.error(`Error updating booking to ${newStatus}:`, error);
-    //         alert(`Error updating booking to ${newStatus}. Check console for details.`);
-    //     }
-    // };
-
+ 
     const handleUpdateStatus = async (id, newStatus) => {
         try {
             const response = await axios.put(
