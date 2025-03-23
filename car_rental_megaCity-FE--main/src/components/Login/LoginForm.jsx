@@ -23,18 +23,7 @@ const LoginForm = () => {
         }
     };
 
-    // const handleLogin = async (e) => {
-    //     e.preventDefault();
-    //     try {
-    //         const response = await loginUser({ email, password });
-    //         if (response.token) {
-    //             localStorage.setItem('token', response.token);  // Store the token in localStorage
-    //             navigate('/home');  // Navigate to the home page after successful login
-    //         }
-    //     } catch (error) {
-    //         setErrorMessage('Invalid login credentials');  // Show error message if login fails
-    //     }
-    // };
+ 
 
     const handleLogin = async (e) => {
         e.preventDefault();
